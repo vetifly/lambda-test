@@ -39,7 +39,7 @@ exports.handler = async function (event) {
     },
     Source: "r.kumar@vetifly.com",
   };
-  console.log('hello');
+  console.log('hello world');
   // return {foo: params}
   return ses.sendEmail(params).promise();
 };
